@@ -7,24 +7,15 @@ A comprehensive data visualization repository featuring exploratory data analyse
 ## 📂 Project Structure
 
 ```text
-├── Datasets/              # Raw and processed CSV datasets
-│   ├── coffee_renamed.csv # Primary coffee survey dataset
-│   ├── coffe_project.csv
-│   ├── bearsNA.csv
-│   ├── Tele_customer.csv
-│   └── ...
-├── Notebooks/             # Jupyter Notebooks with EDA & lab assignments
-│   ├── Coffee_project.ipynb
-│   ├── bear_analysis.ipynb
-│   ├── Gapminder_dash_demo.ipynb
-│   └── ...
-├── Scripts/               # Application scripts
-│   └── app.py             # Interactive Dash web dashboard
-├── Prezentacja/           # Presentations and slides
-│   └── Homework_DVisualization.pptx
-├── Zdjecia/               # Saved charts and visualization exports
-├── requirements.txt       # Python package dependencies
-└── .gitignore             # Ignored files & virtual environments
+├── Datasets/
+│   ├── coffe_project.csv   # Raw coffee survey dataset
+│   └── coffee_renamed.csv  # Cleaned coffee survey dataset
+├── Notebooks/
+│   └── Coffee_project.ipynb # Exploratory data analysis & preprocessing
+├── Scripts/
+│   └── app.py              # Interactive Dash web dashboard
+├── requirements.txt        # Python package dependencies
+└── .gitignore              # Ignored files & virtual environments
 ```
 
 ---
