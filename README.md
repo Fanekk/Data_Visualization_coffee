@@ -1,6 +1,6 @@
 # Data Visualization & Coffee Survey Analysis ☕📊
 
-A comprehensive data visualization repository featuring exploratory data analyses (EDA) and an interactive **Dash/Plotly** web dashboard analyzing coffee consumer habits, preferences, and demographics.
+Repository containing my Data Visualization project.
 
 ---
 
