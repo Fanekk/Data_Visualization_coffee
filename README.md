@@ -28,7 +28,7 @@ Ensure you have **Python 3.9+** installed.
 ### 2. Setup Virtual Environment
 ```bash
 # Clone repository
-git clone https://github.com/franekapanowicz/Data_Visualization_coffee.git
+git clone https://github.com/Fanekk/Data_Visualization_coffee.git
 cd Data_Visualization_coffee
 
 # Create and activate virtual environment
@@ -73,4 +73,4 @@ http://127.0.0.1:8050/
 ---
 
 ## 👤 Author
-* **Franek Apanowicz** - [@franekapanowicz](https://github.com/franekapanowicz)
+* **Franek Apanowicz** - [@Fanekk](https://github.com/Fanekk)
