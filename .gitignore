@@ -22,6 +22,8 @@ __pycache__/
 ._*
 .Spotlight-V100
 .Trashes
+.Rhistory
+*.Rhistory
 
 # IDE & Editor Configs
 .vscode/

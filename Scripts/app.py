@@ -3,14 +3,21 @@ from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
 
+from pathlib import Path
+
 # Hotfix for Plotly/Pandas compatibility
 pd.DataFrame.iteritems = pd.DataFrame.items
 
 # ==========================================
 # 1. LOAD AND CLEAN DATA 
 # ==========================================
-# (Make sure your file path is correct for where you run this script)
-coffee_survey = pd.read_csv("../Datasets/coffee_renamed.csv")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = BASE_DIR / "Datasets" / "coffee_renamed.csv"
+
+if not DATA_PATH.exists():
+    raise FileNotFoundError(f"Dataset not found at expected path: {DATA_PATH}")
+
+coffee_survey = pd.read_csv(DATA_PATH)
 
 # Apply the categorical sorting so the charts look right
 age_order = ['<18 years old', '18-24 years old', '25-34 years old', '35-44 years old', '45-54 years old', '55-64 years old', '>65 years old']
